@@ -1,29 +1,35 @@
-# Kathryn Hussey Coaching Website
+# Kathryn Hussey Life Coach Website — Version 2
 
-A responsive, accessible one-page website for Kathryn Hussey, Life & Career Coach.
+Mobile-first, responsive one-page website for Kathryn Hussey, Life & Career Coach.
 
-## Files
+## Upload to the existing GitHub repository
 
-- `index.html` - page content and structure
-- `styles.css` - colours, typography, layout and responsive design
-- `script.js` - mobile menu, reveal animation and current year
-- `assets/` - website images
+Repository: `kathrynhusseylifecoach`
 
-## Publish with GitHub Pages
+1. Open the repository on GitHub.
+2. Upload and replace `index.html`, `styles.css`, `script.js`, and `README.md`.
+3. Open the existing `assets` folder.
+4. Upload `stonefinal.png` and replace `kathryn-hussey.jpg` if requested.
+5. Commit the changes. GitHub Pages will normally redeploy automatically within a few minutes.
 
-1. Create a new GitHub repository, for example `kathryn-hussey-coaching`.
-2. Upload everything in this folder, keeping the `assets` folder intact.
-3. Open **Settings > Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **main**, folder **/(root)**, then click **Save**.
-6. GitHub will display the public website address after deployment.
+Keep this exact structure:
 
-## Edit the page
+```
+index.html
+styles.css
+script.js
+README.md
+.nojekyll
+assets/
+  kathryn-hussey.jpg
+  stonefinal.png
+```
 
-Open `index.html`, make the change, then commit it. GitHub Pages will redeploy automatically.
+## Important checks before launch
 
-## Important before launch
-
-- Confirm that the phone number, email address, LinkedIn URL and booking URL are correct.
-- Confirm that Kathryn has permission to publish both photographs.
-- Replace or revise any wording that Kathryn wishes to personalize.
+- Confirm pricing, package conditions and instalment wording.
+- Confirm the testimonial may be published with the client’s first name.
+- Confirm the coaching qualification wording is accurate.
+- Confirm the confidentiality statement matches the signed coaching agreement.
+- Confirm the Calendly page contains the free 30-minute discovery-call event.
+- Confirm whether in-person coaching is offered before adding a location.
